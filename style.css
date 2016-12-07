@@ -1,27 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
-
 * {
     border: 1px solid red;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    margin: auto;
 }
 
 #title {
     background: yellow;
-    /*add CSS here*/
-    
+    padding: 45px 50px 45px 50px;
+    margin: 25px 100px;
 }
 
 #subtitle {
     background: black;
     color: white;
-    /*add CSS here*/
-    
+    padding: 20px 50px 20px 50px;
+    margin: 5px 100px;
 }
 
 .topic {
     background: lightgray;
-    /*add CSS here*/
-    
+    height: 25px;
+    width: 100px;
+    margin: 30px 30px 50px 30px;
+    display: inline-block;
 }
 
+/*.container {*/
+/*    background-color:lightgray;*/
+/*}*/
